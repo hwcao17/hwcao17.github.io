@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
+    <link rel="icon" href="images/Hanwen.jpg">
 </head>
 
 <body>
@@ -28,11 +29,11 @@
               <p style="text-align:center">
                 <a href="mailto:h1cao@ucsd.edu">Email</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=68iHjEMAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/intrepidChw">Github</a>
+                <a href="https://github.com/hwcao17">Github</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/Hanwen.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/Hanwen.jpg" class="hoverZoomLink"></a>
+              <a href="images/Hanwen.jpg"><img style="width:80%;max-width:80%" alt="profile photo" src="images/Hanwen.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -47,6 +48,78 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="pkf_stop()" onmouseover="pkf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/pkf.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function pkf_start() {
+                  document.getElementById('pkf_image').style.opacity = "1";
+                }
+
+                function pkf_stop() {
+                  document.getElementById('pkf_image').style.opacity = "0";
+                }
+                pkf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://arxiv.org/abs/2411.06378">
+                <papertitle>PKF: Probabilistic Data Association Kalman Filter for Multi-Object Tracking>
+              </a>
+              <br>
+              <p> 
+              <strong>Hanwen Cao</strong>,  
+              <a href="https://www.georgejpappas.org/">George J. Pappas</a>, 
+              <a href="https://natanaso.github.io/">Nikolay Atanasov</a>, 
+              <br>
+              <em>CVPR (under review)</em>, 2025  
+              <br>
+							<a href="https://github.com/hwcao17/pkf">project page</a> / 
+							<a href="https://arxiv.org/pdf/2411.06378">paper</a> / 
+              </p>			
+              <p></p>
+              <p>Probabilistic data association Kalman filter for multi-object tracking (MOT).</p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="dmsckf_stop()" onmouseover="dmsckf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/dmsckf.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function dmsckf_start() {
+                  document.getElementById('dmsckf_image').style.opacity = "1";
+                }
+
+                function dmsckf_stop() {
+                  document.getElementById('dmsckf_image').style.opacity = "0";
+                }
+                dmsckf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://arxiv.org/abs/2404.18331">
+                <papertitle>Multi-Robot Object SLAM Using Distributed Variational Inference>
+              </a>
+              <br>
+              <p> 
+              <strong>Hanwen Cao</strong>,  
+              <a>Sriram Shreedharan</a>, 
+              <a href="https://natanaso.github.io/">Nikolay Atanasov</a>, 
+              <br>
+              <em>Robotics and Automation Letter (RA-L)</em>, 2024  
+              <br>
+							<a href="https://github.com/hwcao17/distributed_msckf">project page</a> / 
+							<a href="https://arxiv.org/pdf/2404.18331">paper</a> / 
+              </p>			
+              <p></p>
+              <p>Distributed MSCKF (Multi-State Constrained Kalman Filter) for multi-robot SLAM.</p>
+            </td>
+          </tr>
 
           <tr onmouseout="suctionnet_stop()" onmouseover="suctionnet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
